@@ -1,0 +1,11 @@
+.ject {
+    display: flex;
+    justify-content: space-between;
+    color: grey;
+    margin: 5%;
+}
+.subject {
+    display: flex;
+    flex-direction: column;
+    width: 47%;
+}

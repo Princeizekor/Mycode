@@ -1,0 +1,218 @@
+* {
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+nav {
+    width: 100%;
+    height: 80px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    background: white;
+}
+nav ul {
+    align-items: center;
+    width: 100%;
+    line-height: 40px;
+}
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+.find {
+    margin-left: 350px;
+}
+nav ul li a{
+    text-align: center;
+}
+nav ul .btn1 {
+    float: right;
+    text-align: center;
+    box-shadow: 5px 5px black;
+    border-radius: 5px;
+    color: black;
+    border: 1px solid black;
+    width: 150px;
+    background: white;
+    transition: 1s all ease;
+}
+nav ul .btn1:hover {
+    background: yellow;
+    color: black;
+    transition: 1s all ease;
+}
+nav ul .btn2 {
+    color:black;
+    margin-left: 350px;
+    width: 120px;
+    background: white;
+    font-size: 17px;
+}
+label.top {
+    margin-left: 30px;
+    font-size: 20px;
+}
+.sign {
+    float: right;
+}
+.wrapper {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    padding-left: 60px;
+}
+.body1 {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+.body1 h1 {
+    font-size: 60px;
+    width: 100%;
+}
+.body1 p {
+    font-size: 25px;
+}
+.radio1 {
+    display:flex ;
+    margin-bottom: 20px;
+}
+#radio2 {
+    margin-left: 70px;
+}
+#radio3 {
+    margin-left: 80px;
+}
+
+.body1 #search1 {
+    padding: 10px;
+    border: none;
+}
+.cut {
+    width: 47%;
+    height: auto;
+    margin-right: 40px;
+}
+.devide {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-top: 30px;
+    width: 50%;
+    border-radius: 3px;
+    box-shadow: 5px 5px black;
+    justify-content: space-between;
+    border: 1px solid black;
+    width: 80%;
+}
+.devide button {
+    background: black;
+    color: white;
+    border: none;
+    font-size:px;
+    text-align: center;
+    width: 35%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 3px;
+    transition: 1s all ease;
+}
+.devide button:hover {
+    background: yellow;
+    color: black;
+    transition: 1s all ease;
+}
+.wrap {
+    width: 100%;
+    background: black;
+    height: 350px;
+}
+.buttom {
+    margin: 5%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.buttom1 {
+    margin-left: 40px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.bottom1 h1 {
+    font-size: 20px;
+    font-weight: bold;
+    width: 80%;
+}
+.buttom button {
+    padding: 10px;
+    background: yellow;
+    border: none;
+    text-align: center;
+}
+.bottom2 {
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.first {
+    margin-top: 60px;
+    width: 30px;
+    border-radius: 50px;
+}
+.bottom2 h1 {
+    font-size: 15px;
+}
+.bottom3 {
+    margin-right: 40px;
+}
+.bottom3 h1 {
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

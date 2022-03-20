@@ -1,0 +1,436 @@
+* {
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+nav {
+    width: 100%;
+    height: 80px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    background: white;
+    border-bottom: 1px solid black;
+}
+#none {
+    display: none;
+}
+ul {
+    padding-left: 80px;
+    padding-right: 80px;
+    display: flex;
+}
+.menu {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 6px 0;
+    font-size: 30px;
+    cursor: pointer;
+}
+.right {
+    margin-top: 20px;
+    display: none;
+}
+#check {
+    display: none;
+}
+#check:checked ~ li {
+    top:0%;
+}
+nav ul {
+    align-items: center;
+    width: 100%;
+    line-height: 40px;
+    justify-content: space-between;
+}
+nav ul li {
+    display: inline-block;
+    margin-left: 40px;
+}
+.find {
+    margin-left: 180px;
+}
+nav ul li a{
+    text-align: center;
+}
+nav ul .btn1:hover {
+    background: yellow;
+    color: black;
+    transition: 1s all ease;
+}
+label.top {
+    font-size: 21px;
+}
+.tool {
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-left: 40px;
+}
+.tool1 {
+    width: 15px;
+    height: 15px;
+    border-radius: 5px;
+}
+.awesome {
+    display: flex;
+}
+.second {
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.profile1 {
+    width: 70px;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding-left: 2px;
+    padding: 3px;
+    display: flex;
+    margin: 0;
+    position: relative;
+}
+.profile1 .fat {
+        width: 18px;
+        height: 2px;
+        background-color: black;
+        margin-top: 5px;
+        cursor: pointer;
+        margin-left: 5px;
+}
+.profile1 .go {
+    width: 13px;
+    height: 2px;
+    background-color: black;
+    margin-top: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.news {
+    display: flex;
+    flex-direction: column;
+}
+.onclick .click {
+    padding: 15px;
+    font-size: 15px;
+    width: 100px;
+    border: none;
+    outline: none;
+    text-align: left;
+}
+.click:hover {
+    background-color: silver;
+}
+.onclick {
+    display: none;
+    position: absolute;
+    border: 1px solid black;
+}
+.profile1:hover .onclick {
+    display: block;
+    position: absolute;
+    margin-top: 35px;
+}
+.picture {
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    margin-left: 2px;
+}
+#search {
+    border: none;
+    width: 300px;
+    outline: none;
+}
+.sign {
+    float: right;
+}
+.anim {
+    background: linear-gradient(to top right, yellow, white, pink);
+    margin-bottom: 50px;
+    height: 200px;
+}
+#typetext {
+    padding: 11px;
+    border-radius: 50px;
+    width: 30%;
+    background: white;
+    margin-top: 5%;
+    margin-left: 35%;
+    font-size: 15px;
+    box-shadow: 5px 5px black;
+    border: 1px solid black;
+    outline: none;
+}
+.btn1 {
+    border-radius: 50px;
+    padding: 10px;
+    text-align: right;
+    box-shadow: 5px 5px black;
+    width: 8%;
+    margin-top: 70px;
+    margin-left: 45%;
+    transition: 1s all ease;
+}
+.btn1:hover {
+    background: yellow;
+    transition: 1s all ease;
+}
+.see {
+    margin-left: 73%;
+    font-weight: bold;
+}
+.new {
+    margin-left: 5%;
+    font-weight: bold;
+    font-size: 20px;
+}
+hr {
+    margin-left: 5%;
+    margin-right: 7%;
+}
+.trending {
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 5%;
+    justify-content: space-between;
+}
+.card {
+    padding: 20px;
+    width: 280px;
+    height: 250px;
+    border: 1px solid black;
+    border-radius: 10px;
+    transition: 1s all ease;
+}
+.card:hover  {
+    box-shadow: 5px 5px black;
+    transition: 1s all ease;
+}
+.resize {
+        width: 40px;
+        height: 40px;
+        border-radius: 5px;
+}
+.card div {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 5px 5px black;
+    transition: 1s all ease;
+}
+.card div:hover {
+    background: yellow;
+    color:black;
+    transition: 1s all ease;
+}
+.flow {
+    display: flex;
+    margin-top: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-content: space-between;
+}
+.wrapper2 {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 280px;
+    height: 300px;
+    transition: 1s all ease;
+}
+.wrapper2:hover{
+    box-shadow: 5px 5px black;
+    transition: 1s all ease;
+}
+.img {
+    background: url("https://media.istockphoto.com/photos/picturesque-morning-in-plitvice-national-park-colorful-spring-scene-picture-id1093110112?k=20&m=1093110112&s=612x612&w=0&h=3OhKOpvzOSJgwThQmGhshfOnZTvMExZX2R91jNNStBY=");
+    height: 100px;
+    border-radius: 10px;
+}
+.size {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-top: 80px;
+}
+.wrapper2 h3 {
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.wrapper2 p {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.wrapper2 .browse {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 5px 5px black;
+    transition: 1s all ease;
+    margin-left: 20px;
+    margin-right: 20px;
+    transition: 1s all ease;
+}
+.wrapper2 .browse:hover {
+    transition: 1s all ease;
+    background: yellow;
+    color:black;
+}
+.cover {
+    width: 100%;
+    height: 620px;
+    background: rgb(207, 200, 200);
+    margin: 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.select {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.cover1 {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 390px;
+    height: 250px;
+    transition: 1s all ease;
+    background: white;
+    margin-top: 30px;
+}
+.cover1:hover{
+    box-shadow: 5px 5px black;
+    transition: 1s all ease;
+}
+.cover1-img {
+    background: url("https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072821__340.jpg");
+    height: 140px;
+    border-radius: 10px;
+}
+.cover1-text {
+    margin: 0;
+    height: 80px;
+    display: flex;
+}
+.text3 {
+    display: flex;
+    flex-direction: column;
+}
+.border {
+    text-align: center;
+    border-radius: 50px;
+    width: 45px;
+    height: 45px;
+    border: 1px solid black;
+    font-size: 35px;
+    margin-left: 140px;
+    margin-top: 40px;
+    transition: 1s all ease;
+}
+.border:hover {
+    transition: 1s all ease;
+    background: yellow;
+    box-shadow: 5px 5px black;
+}
+.cover1 h3 {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.cover1 p {
+    margin-left: 20px;
+    margin-top: 1px;
+}
+@media screen and (max-width: 768px) {
+    * {
+        box-sizing: border-box;
+    }
+    body {
+        margin: 0;
+    }
+    nav {
+        height: 70px;
+    }
+    nav ul li{
+        display: none;
+    }
+    nav ul .btn3 {
+        padding: 0px;
+        width: 100px;
+        height: 40px;
+        margin-right: 20px;
+    }
+    .anim {
+        background: yellow;
+        height: 140px;
+    }
+    #typetext {
+        margin-top: 10%;
+        margin-left: 50px;
+        width: 80%;
+    }
+    .btn1 {
+        width: 100px;
+        margin-left: 200px;
+        margin-top: 30px;
+        background: white;
+    }
+    .trending {
+        flex-direction: column;
+        width: 100%;
+    }
+    .card {
+        width: 70%;
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+    .card h3 {
+        margin-top: 20px;
+    }
+    .card p, div {
+        margin-top: 10px;
+    }
+    .cover {
+        width: 100%;
+        margin: 0;
+    }
+    .flow {
+        flex-direction: column;
+    }
+    .wrapper2 {
+        width: 80%;
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+    .wrapper2 .img {
+        margin: 0;
+    }
+    .cover {
+        margin: 0;
+        margin-top: 80px;
+        height: 1750px;
+        margin-bottom: 50px;
+    }
+    .select {
+        flex-direction: column;
+    }
+    .cover1 {
+        width: 85%;
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+    .new {
+        margin-bottom: 5px;
+    }
+}
+

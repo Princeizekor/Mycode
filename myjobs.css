@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+} 
+body {
+    margin: 0;
+}
+.row {
+    display: flex;
+}
+.column {
+    float: left;
+  padding: 10px;
+  height: 1000px;
+}
+.right {
+    background: rgb(245, 241, 241);
+    width: 25%;
+    list-style-type: none;
+    position: sticky;
+    left: 0;
+    top: 0;
+    height:100vh;
+}
+.left {
+    background: white;
+    width: 75%;
+}
+.choose {
+    margin-top: 80px;
+    margin-left: 40px;
+}
+li a {
+    text-decoration: none;
+    margin-top: 35px;
+    display: inline-block;
+    color: grey;
+    font-size: 20px;
+    transition: 0.3s all ease;
+}
+li a:hover {
+    color: black;
+    transition: 0.3s all ease;
+}
+.left h1 {
+    margin-left: 180px;
+}
+.sidewrap {
+    width: 100%;
+    display: flex;
+}
+.sidewrap2 {
+    width: 10%;
+    padding: 10px;
+    border: 1.5px solid black;
+    text-align: center;
+    border-radius: 50px;
+    margin-left: 85%;
+}
+.sidewrap2:hover {
+    background: yellow;
+    transition: 1s all ease;
+    box-shadow: 3px 3px black;
+}
+.all {
+    padding: 0px;
+    width: 60%;
+    border: 1px solid black;
+    margin-left: 180px;
+    display: flex;
+    margin-top: 15px;
+}
+.resize {
+    width: 30px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+.all1 {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.all1 h2 {
+    font-size: 20px;
+    margin: 0;
+}
+.all1 p {
+    margin: 3px;
+}
+.inline {
+    width: 30%;
+    background: white;
+    margin-top: 25px;
+    margin-left: 140px;
+    margin-bottom: 25px;
+    border-radius: 50px;
+    transition: 1s all ease;
+}
+.inline:hover {
+    background: yellow;
+    transition: 1s all ease;
+    box-shadow: 3px 3px black;
+}
+.outline {
+    width: 30%;
+    background: white;
+    margin-top: 15px;
+    margin-left: 40px;
+    margin-bottom: 15px;
+    border-radius: 50px;
+    transition: 1s all ease;
+}
+.outline:hover {
+    background: yellow;
+    transition: 1s all ease;
+    box-shadow: 3px 3px black;
+}
+.downbtn {
+    text-align: center;
+    padding: 10px;
+    width: 60%;
+    border-radius: 50px;
+    background: yellow;
+    margin-left: 180px;
+    margin-top: 20px;
+}
+#dropdown {
+    width: 60%;
+    padding: 15px;
+    margin-left: 180px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.top5 {
+    width: 30px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.top6 {
+        width: 30px;
+        height: 40px;
+        margin-top: 50px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

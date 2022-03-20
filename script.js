@@ -1,0 +1,3 @@
+//ignore
+var hometext = "image";
+

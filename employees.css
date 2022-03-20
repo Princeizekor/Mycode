@@ -1,0 +1,1462 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap');
+@media screen and (max-width: 1600px){
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    align-items: center;
+    font-family: 'source sans pro', sans-serif;
+}
+nav {
+    width: 100%;
+    position: sticky;
+    top: 0%;
+    background: white;
+    line-height: 20px;
+    padding: 10px;
+}
+nav ul {
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+}
+nav ul li {
+    list-style-type: none;
+    justify-content: space-between;
+    font-size: 17px;
+}
+nav ul li a {
+    display: block;
+    color: black;   
+    padding: 10px;
+    margin-left: 40px;
+    text-decoration: none;
+}
+ul .text1 {
+    margin-left: 330px;
+}
+ul .sign-in {
+    margin-left: 260px;
+    margin-right: 30px;
+    font-size: 17px;
+}
+ul .sign-up {
+    width: 150px;
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 17px;
+    border-radius: 5px;
+    box-shadow: 5px 5px black;
+    transition: 1s all ease;
+}
+ul .sign-up:hover {
+    background: yellow;
+    transition: 1s all ease;
+}
+.wrapper1 {
+    display: flex;
+    width: 100%;
+    padding: 50px;
+}
+.wrapper1 img {
+    width: 45%;
+    margin-left: 50px;
+}
+.choice {
+    display: flex;
+    flex-direction: column;
+    width: 47%;
+    margin-top: 20px;
+    text-align: justify;
+}
+.choice h1 {
+    font-size: 72px;
+    margin: 0;
+    margin-top: 30px;
+}
+.choice p {
+    font-size: 25px;
+    margin-top: 35px;
+}
+.choice h3 {
+    font-size: 18px;
+    margin-top: 35px;
+    color: grey;
+}
+strong {
+    color: black;
+    background: yellow;
+}
+.email {
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    justify-content: space-between;
+    width: 90%;
+    box-shadow: 6px 6px black;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+.email input {
+    padding: 20px;
+    width: 200px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+.email button {
+    background: black;
+    color: white;
+    width: 200px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 1s all ease;
+}
+.email button:hover {
+    background: yellow;
+    transition: 1s all ease;
+}
+.foot12 {
+    background: black;
+    width: 100%;
+    margin: 0;
+    height: 400px;
+}
+.basic {
+    padding: 80px;
+    padding-left: 60px;
+    padding-right: 60px;
+    justify-content: space-between;
+    display: flex;
+    color: white;
+}
+.basic1 {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+.basic1 h1 {
+    font-size: 30px;
+    margin: 0;
+    margin-bottom: 40px;
+}
+.basic1 h3 {
+    padding: 10px;
+    background: yellow;
+    width: 200px;
+    border-radius: 3px;
+    margin: 0;
+    color: black;
+    text-align: center;
+}
+.basic2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    padding: 5px;
+    padding-bottom: 0;
+    padding-top: 0;
+    border-left: 1px solid white;
+}
+.basic2 img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+}
+.basic2 h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.footer {
+    background: black;
+    width: 100%;
+    margin: 0;
+    height: 400px;
+}
+.footer1 {
+    display: flex;
+    width: 100%;
+    margin: 0;
+    justify-content: space-between;
+    padding: 50px;
+}
+.foot-text1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.foot-text1 h3 {
+    color: white;
+}
+.foot2 button {
+    padding: 12px;
+    width: 100px;
+    background: white;
+    text-align: center;
+    border-radius: 2px;
+    border: none;
+    font-size: 12px;
+}
+.foot2 {
+    margin-right: 80px;
+}
+.miles {
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.miles2 {
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 50px;
+}
+.miles3 {
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 50px;
+}
+.miles4 {
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.join {
+    display: flex;
+}
+#text {
+    width: 200px;
+    height: 38px;
+    border: none;
+    margin-right: 15px;
+    outline: none;
+    border-radius: 2px;
+}
+.foot-text2 {
+    display:flex;
+    flex-direction: column;
+    color: white;
+    margin-top: 40px; 
+    margin-right: 80px;
+    margin-left: 90px;
+    font-size: 15px;
+}
+.foot-text3 {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-top: 40px;
+    margin-right: 80px;
+}
+.foot-text4 {
+    display:flex;
+    flex-direction: column;
+    color: white;
+    margin-top: 40px; 
+}
+.wrapper2 {
+    display: flex;
+    width: 100%;
+    margin: 0;
+    margin-top: 100px;
+    padding: 150px;
+    justify-content: space-between;
+}
+.rewards {
+    display: flex;
+    flex-direction: column;
+}
+.rewards h1 {
+    font-size: 50px;
+    margin-top: 40px;
+}
+.rewards p {
+    font-size: 22px;
+    margin-top: 40px;
+}
+.rewards h2 {
+    margin-top: 40px;
+}
+.wrapper2 img {
+    width: 47%;
+    height: auto;
+}
+.wrapper3 {
+    display: flex;
+    width: 100%;
+    margin: 0;
+    padding: 150px;
+    padding-top: 0;
+    justify-content: space-between;
+}
+.wards {
+    display: flex;
+    flex-direction: column;
+}
+.wards h1 {
+    font-size: 50px;
+    margin-top: 40px;
+}
+.wards p {
+    font-size: 22px;
+    margin-top: 40px;
+}
+.wards h2 {
+    margin-top: 40px;
+}
+.wrapper3 img {
+    width: 47%;
+    height: auto;
+}
+.wrapper4 {
+    display: flex;
+    width: 100%;
+    margin: 0;
+    padding: 150px;
+    padding-top: 0;
+    justify-content: space-between;
+}
+.raw {
+    display: flex;
+    flex-direction: column;
+}
+.raw h1 {
+    font-size: 50px;
+    margin-top: 40px;
+}
+.raw p {
+    font-size: 22px;
+    margin-top: 40px;
+}
+.raw h2 {
+    margin-top: 40px;
+}
+.wrapper4 img {
+    width: 47%;
+    height: auto;
+}
+.wrapper5 {
+    display: flex;
+    flex-direction: column;
+    background: rgb(124, 151, 173);
+    width: 100%;
+    height: 700px;
+    margin: 0;
+    text-align: center;
+    padding: 120px;
+    padding-left: 0;
+    padding-right: 0;
+}
+.wrapper5 h1 {
+    font-size: 60px;
+}
+.wrapper5 h3 {
+    background: white;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 5px 5px black;
+    border: 1px solid black;
+    width: 15%;
+    margin-left: 43%;
+    border-radius: 10px;
+    transition: 1s all ease;
+}
+.wrapper5 h3:hover {
+    background: yellow;
+    transition: 1s all ease;
+    width: 16%;
+}
+.stage {
+    display: flex;
+    padding: 80px;
+    justify-content: space-between;
+}
+.stage div {
+    background: white;
+    padding: 40px;
+    width: 270px;
+    border-radius: 15px;
+    border: 1px solid black;
+    box-shadow: 6px 6px black;
+    transition: 1s all ease;
+    margin: 0;
+    justify-content: space-between;
+}
+.stage div:hover{
+    background: yellow;
+    box-shadow: 6px 6px black;
+    transition: 1s all ease;
+}
+.stage div h1 {
+    margin: 0;
+    margin-bottom: 30px;
+}
+.stage div p {
+    font-size: 30px;
+    margin: 0;
+}
+.wrapper6 {
+    display: flex;
+    width: 100%;
+    height: auto;
+    background: black;
+    margin: 0;
+    justify-content: space-between;
+    padding: 150px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.wrapper6 img {
+    width: 47%;
+    height: auto;
+}
+.wrap6 {
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    color: white;
+    width: 47%;
+    font-size: 20px;
+    padding: 20px;
+}
+.wrap6 h1 {
+    margin-bottom: 25px;
+}
+.wrapper7 {
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+.perfect {
+    width: 100%;
+    padding: 40px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+.perfect h1 {
+    width:100%;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.fact1 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.fact1 img {
+    width: 47%;
+    height: 47%;
+    margin-top: 25px;
+}
+.fact2 {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.fact2 h2 {
+    padding: 40px;
+    width: 100%;
+    font-size: 30px;
+    color: rgb(97, 92, 92);
+    border-bottom: 1px solid silver;
+    transition: 1s all ease;
+}
+.fact2 h2:last-child {
+    border: none;
+}
+.fact2 h2:hover {
+     padding: 40px;
+     border-radius: 20px;
+     box-shadow: 5px 5px black;
+     transition: 1s all ease;
+     border: 1px solid black
+}
+.wrapper8 {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    background: black;
+}
+.select {
+    width: 100%;
+    padding: 200px;
+}
+.wrapper8 select {
+    background: rgb(77, 73, 73);
+    color: white;
+    width: 100%;
+}
+
+#work {
+    padding: 30px;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+}
+}
+@media screen and (max-width: 900px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        align-items: center;
+    }
+    nav {
+        width: 100%;
+        position: sticky;
+        top: 0%;
+        background: white;
+    }
+    nav ul {
+        display: flex;
+        align-items: center;
+    }
+    nav ul li {
+        text-decoration: none;
+        list-style-type: none;
+        justify-content: space-between;
+        font-size: 17px;
+    }
+    nav ul li a {
+        display: block;
+        color: black;   
+    }
+    ul .sign-in {
+        font-size: 17px;
+    }
+    ul .sign-up {
+        width: 150px;
+        padding: 10px;
+        border: 1px solid black;
+        text-align: center;
+        font-size: 17px;
+        border-radius: 5px;
+        box-shadow: 5px 5px black;
+        transition: 1s all ease;
+    }
+    ul .sign-up:hover {
+        background: yellow;
+        transition: 1s all ease;
+    }
+    .wrapper1 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 50px;
+    }
+    .wrapper1 img {
+        width: 100%;
+    }
+    .choice {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 20px;
+        text-align: justify;
+    }
+    .choice h1 {
+        font-size: 72px;
+        margin: 0;
+        margin-top: 30px;
+    }
+    .choice p {
+        font-size: 25px;
+        margin-top: 35px;
+    }
+    .choice h3 {
+        font-size: 18px;
+        margin-top: 35px;
+        color: grey;
+    }
+    strong {
+        color: black;
+        background: yellow;
+    }
+    .email {
+        display: flex;
+        padding: 10px;
+        width: 100%;
+        margin-top: 40px;
+    }
+    .email input {
+        padding: 20px;
+        width: 100%;
+        border: none;
+        outline: none;
+        font-size: 20px;
+    }
+    .email button {
+        background: black;
+        color: white;
+        width: 100%;
+        border: none;
+        outline: none;
+        font-size: 18px;
+        border-radius: 5px;
+        transition: 1s all ease;
+    }
+    .email button:hover {
+        background: yellow;
+        transition: 1s all ease;
+    }
+    }
+@media  screen and (max-width: 767px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        align-items: stretch;
+    }
+    nav {
+        display: flex;
+        width: 100%;
+        background: white;
+    }
+    nav ul {
+        margin: 0;
+        padding: 10px;
+    }
+    nav ul li {
+        display: none;
+    }
+    ul .sign-in {
+        display: none;
+    }
+    ul .sign-up {
+        margin-left: 150px;
+        width: 140px;
+    }
+    div .fat1 {
+        display: flex;
+        flex-direction: column;
+    }
+    .fat {
+        width: 25px;
+        height: 3px;
+        background: black;
+        cursor: pointer;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-right: 8px;
+    }
+    .wrapper1 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding:20px;
+    }
+    .wrapper1 h1 {
+        font-size: 55px;
+        margin: 0;
+    }
+    .wrapper1 p {
+        font-size: 20px;
+        margin-top: 35px;
+    }
+    .wrapper1 img {
+        width: 100%;
+        margin: 0;
+    }
+    .choice {
+        width: 100%;
+    }
+    .email {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        border: none;
+        box-shadow: none;
+    }
+    .email input {
+        width: 100%;
+        padding: 17px;
+        border: none;
+        border: 1px solid black;
+        outline: none;
+        border-radius: 3px;
+        box-shadow: 5px 5px black;
+        font-size: 20px;
+        text-align: center;
+    }
+    .email button {
+        width: 100%;
+        padding: 18px;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        box-shadow: 5px 5px yellow;
+        margin-top: 25px;
+        font-size: 20px;
+        text-align: center;
+        background: black;
+        color: white;
+        transition: 1s all ease;
+    }
+    .email button:hover {
+        background: yellow;
+        color: black;
+        box-shadow: 6px 6px black;
+        transition: 1s all ease;
+    }
+    .footer {
+        background: black;
+        width: 100%;
+        margin: 0;
+        height: 550px;
+    }
+    .footer1 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        padding: 40px;
+    }
+    .foot-text1 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+        text-align: left;
+    }
+    .foot-text1 h3 {
+        color: white;
+        font-size: 50px;
+        width: 100%;
+    }
+    .foot2 button {
+        padding: 12px;
+        width: 100px;
+        background: white;
+        text-align: center;
+        border-radius: 2px;
+        border: none;
+        font-size: 12px;
+    }
+    .foot2 {
+        margin-right: 80px;
+    }
+    .miles {
+        width: 40px;
+        height: 40px;
+        margin-top: 20px;
+        border-radius: 20px;
+    }
+    .miles2 {
+        width: 40px;
+        height: 40px;
+        margin-top: 20px;
+        margin-left: 20px;
+        border-radius: 50px;
+    }
+    .miles3 {
+        width: 40px;
+        height: 40px;
+        margin-top: 20px;
+        margin-left: 20px;
+        border-radius: 50px;
+    }
+    .miles4 {
+        width: 40px;
+        height: 40px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .join {
+        display: flex;
+    }
+    #text {
+        width: 200px;
+        height: 38px;
+        border: none;
+        margin-right: 15px;
+        outline: none;
+        border-radius: 2px;
+    }
+    .foot-text2 {
+        display:flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: right;
+        margin: 0;
+        color: white;
+        margin-top: 40px; 
+        font-size: 15px;
+    }
+    .foot-text3 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        color: white;
+        margin-top: 40px;
+        margin: 0;
+        text-align: left;
+    }
+    .foot-text4 {
+        display:flex;
+        flex-direction: column;
+        color: white;
+        width: 100%;
+        margin-top: 40px; 
+        margin: 0;
+        text-align: right;
+    }
+    .wrapper2 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        margin-top: 35px;
+        padding: 60px;
+    }
+    .rewards {
+        display: flex;
+        flex-direction: column;
+    }
+    .rewards h1 {
+        font-size: 35px;
+        margin-top: 20px;
+    }
+    .rewards p {
+        font-size: 25px;
+        margin-top: 20px;
+    }
+    .rewards h2 {
+        margin-top: 20px;
+    }
+    .wrapper2 img {
+        width: 100%;
+        height: auto;
+    }
+    .wrapper3 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        margin-top: 40px;
+        padding: 60px;
+    }
+    .wards {
+        display: flex;
+        flex-direction: column;
+    }
+    .wards h1 {
+        font-size: 35px;
+        margin-top: 20px;
+    }
+    .wards p {
+        font-size: 25px;
+        margin-top: 20px;
+    }
+    .wards h2 {
+        margin-top: 20px;
+    }
+    .wrapper3 img {
+        width: 100%;
+        height: auto;
+    }
+    .wrapper4 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        margin-top: 40px;
+        padding: 60px;
+        padding-top: 0;
+    }
+    .raw {
+        display: flex;
+        flex-direction: column;
+    }
+    .raw h1 {
+        font-size: 35px;
+        margin-top: 20px;
+    }
+    .raw p {
+        font-size: 25px;
+        margin-top: 20px;
+    }
+    .raw h2 {
+        margin-top: 20px;
+    }
+    .wrapper4 img {
+        width: 100%;
+        height: auto;
+    }
+    .wrapper5 {
+        display: flex;
+        flex-direction: column;
+        background: rgb(124, 151, 173);
+        width: 100%;
+        height: auto;
+        margin: 0;
+        text-align: center;
+        padding: 60px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .wrapper5 h1 {
+        font-size: 50px;
+    }
+    .wrapper5 h3 {
+        background: white;
+        padding: 10px;
+        margin: 0;
+        text-align: center;
+        box-shadow: 5px 5px black;
+        border: 1px solid black;
+        width: 92%;
+        border-radius: 2px;
+        transition: 1s all ease;
+        margin-left: 20px;
+    }
+    .wrapper5 h3:hover {
+        background: yellow;
+        transition: 1s all ease;
+        width: 92%;
+    }
+    .stage {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 20px;
+        justify-content: space-between;
+    }
+    .stage div {
+        background: white;
+        padding: 40px;
+        height: 150px;
+        width: 100%;
+        border-radius: 15px;
+        border: 1px solid black;
+        box-shadow: 6px 6px black;
+        transition: 1s all ease;
+        margin: 0;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .stage div:hover{
+        background: yellow;
+        box-shadow: 6px 6px black;
+        transition: 1s all ease;
+    }
+    .stage div h1 {
+        margin: 0;
+    }
+    .stage div p {
+        margin: 0;
+        font-size: 20px;
+    }
+    .foot12 {
+        width: 100%;
+        height: auto;
+    }
+    .basic {
+        padding: 60px;
+        padding-left: 40px;
+        padding-right: 40px;
+        display: flex;
+        flex-direction: column;
+        color: white;
+    }
+    .basic1 {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        width: 100%;
+    }
+    .basic1 h1 {
+        font-size: 30px;
+        margin: 0;
+        margin-bottom: 30px;
+    }
+    .basic1 h3 {
+        padding: 10px;
+        background: yellow;
+        width: 100%;
+        border-radius: 3px;
+        margin: 0;
+        color: black;
+        text-align: center;
+    }
+    .basic2 {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 5px;
+        border: none;
+        margin-top: 30px;
+    }
+    .basic2 img {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 20px;
+    }
+    .basic2 h1 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media  screen and (min-width: 768px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    nav {
+        width: 100%;
+        background: white;
+        margin: 0;
+    }
+    nav ul {
+        padding: 40px;
+        width: 100%;
+        margin: 0;
+        justify-content: space-between;
+        text-align: center;
+    }
+    nav ul li {
+        width: 150px;
+        margin: 0;
+    }
+    nav ul li a {
+        margin: 0;
+    }
+    .fat {
+        display: none;
+    }
+    ul .sign-in {
+        display: none;
+    }
+    ul .sign-up {
+        margin: 0;
+    }
+    div .fat1 {
+        display: flex;
+        flex-direction: column;
+    }
+    .top-text {
+        margin: 0;
+    }
+    .fat {
+        width: 25px;
+        height: 3px;
+        background: black;
+        cursor: pointer;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-right: 8px;
+    }
+    .wrapper1 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding:20px;
+    }
+    .wrapper1 h1 {
+        font-size: 55px;
+        margin: 0;
+    }
+    .wrapper1 p {
+        font-size: 20px;
+        margin-top: 35px;
+    }
+    .wrapper1 img {
+        width: 100%;
+        margin: 0;
+    }
+    .choice {
+        width: 100%;
+    }
+    .email {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        border: none;
+        box-shadow: none;
+    }
+    .email input {
+        width: 100%;
+        padding: 17px;
+        border: none;
+        border: 1px solid black;
+        outline: none;
+        border-radius: 3px;
+        box-shadow: 5px 5px black;
+        font-size: 20px;
+        text-align: center;
+    }
+    .email button {
+        width: 100%;
+        padding: 18px;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        box-shadow: 5px 5px yellow;
+        margin-top: 25px;
+        font-size: 20px;
+        text-align: center;
+        background: black;
+        color: white;
+        transition: 1s all ease;
+    }
+    .email button:hover {
+        background: yellow;
+        color: black;
+        box-shadow: 6px 6px black;
+        transition: 1s all ease;
+    }
+    .wrapper5 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+    .stage {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .stage div {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+} */
+
+
+
+

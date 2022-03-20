@@ -1,0 +1,234 @@
+* {
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+nav {
+    width: 100%;
+    height: 80px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    background: white;
+}
+#none {
+    display: none;
+}
+ul {
+    padding-left: 80px;
+    padding-right: 80px;
+    display: flex;
+}
+.menu {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 6px 0;
+    font-size: 30px;
+    cursor: pointer;
+}
+.right {
+    margin-top: 20px;
+    display: none;
+}
+#check {
+    display: none;
+}
+#check:checked ~ li {
+    top:0%;
+}
+nav ul {
+    align-items: center;
+    width: 100%;
+    line-height: 40px;
+    justify-content: space-between;
+}
+nav ul li {
+    display: inline-block;
+    margin-left: 40px;
+}
+.find {
+    margin-left: 180px;
+}
+nav ul li a{
+    text-align: center;
+}
+nav ul .btn1:hover {
+    background: yellow;
+    color: black;
+    transition: 1s all ease;
+}
+label.top {
+    font-size: 21px;
+}
+.tool {
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-left: 40px;
+}
+.tool1 {
+    width: 15px;
+    height: 15px;
+    border-radius: 5px;
+}
+.awesome {
+    display: flex;
+}
+.second {
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.profile1 {
+    width: 70px;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding-left: 2px;
+    padding: 3px;
+    display: flex;
+    margin: 0;
+}
+.profile1 .fat {
+        width: 18px;
+        height: 2px;
+        background-color: black;
+        margin-top: 5px;
+        cursor: pointer;
+        margin-left: 5px;
+}
+.profile1 .go {
+    width: 13px;
+    height: 2px;
+    background-color: black;
+    margin-top: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.news {
+    display: flex;
+    flex-direction: column;
+}
+.picture {
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    margin-left: 2px;
+}
+#search {
+    border: none;
+    width: 300px;
+    outline: none;
+}
+.sign {
+    float: right;
+}
+.anim {
+    background: linear-gradient(to top right, yellow, white, pink);
+    margin-bottom: 50px;
+    height: 200px;
+}
+#typetext {
+    padding: 11px;
+    border-radius: 50px;
+    width: 30%;
+    background: white;
+    margin-top: 5%;
+    margin-left: 35%;
+    font-size: 15px;
+    box-shadow: 5px 5px black;
+    border: 1px solid black;
+    outline: none;
+}
+.btn1 {
+    border-radius: 50px;
+    padding: 10px;
+    text-align: right;
+    box-shadow: 5px 5px black;
+    width: 8%;
+    margin-top: 70px;
+    margin-left: 45%;
+    transition: 1s all ease;
+}
+.btn1:hover {
+    background: yellow;
+    transition: 1s all ease;
+}
+.see {
+    margin-left: 73%;
+    font-weight: bold;
+}
+.new {
+    margin-left: 5%;
+    font-weight: bold;
+    font-size: 20px;
+}
+hr {
+    margin-left: 5%;
+    margin-right: 7%;
+}
+.card {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+ }
+ .left-card {
+    background: white;
+    text-align: center;
+    display: block;
+    width: 30%;
+    height: 350px;
+    margin-right: 20px;
+    border: 20px black;
+    border: 1px solid black;
+    border-radius: 10px;
+    transition: 1s all ease;
+ }
+ .left-card:hover {
+     box-shadow: 10px 10px black;
+     transition: 1s all ease;
+ }
+ .img2 {
+    background: url("https://images.unsplash.com/photo-1497215728101-856f4ea42174?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8b2ZmaWNlfGVufDB8fDB8fA%3D%3D&w=1000&q=80");
+    height: 30%;
+     width: 100%;
+     margin: 0%;
+     border-radius: 10px;
+}
+.img3 {
+    width: 20%;
+    height: 40%;
+    border-radius: 5px;
+    margin-top: 85px;
+}
+ .centered {
+    position: absolute;
+    width: 70px;
+    margin-left: 100px;
+    margin-top: 60%;
+    border-radius: 50%;
+ }
+.left-card h3, h4 {
+    margin-bottom: 20px;
+}
+.left-card h3 {
+    margin-top:40px ;
+}
+.left-card button {
+    border-radius: 50px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 5px 5px black;
+    width: 80%;
+}
+.left-card button:hover {
+    background: yellow;
+    transition: 1s all ease;
+}

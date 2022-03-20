@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+}
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+nav {
+    background: white;
+    height: 80px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+nav ul li {
+    line-height: 80px;
+    display: inline-block; 
+    margin: 0 5px;
+}
+nav ul li a {
+    font-size: 17px;
+    text-align:center ;
+}
+.home {
+    padding: 10px 15px;
+}
+label.main-nav {
+    padding: 0 100px;
+    line-height: 80px;
+    font-size: 35px;
+}
+.menu {
+        width: 25px;
+        height: 3px;
+        margin: 6px 0;
+        font-size: 30px;
+        line-height: 80px;
+        margin-right: 40px;
+        cursor: pointer;
+}
+.right {
+    margin-top: 15px;
+    float: right;
+    display: none;
+}
+#check {
+    display: none ;
+}
+#check:checked ~ ul {
+    left:0%;
+}
+p {
+    text-align: center;
+    margin-left: 20%;
+    width: 60%;
+    margin-bottom: 20px;
+}
+@media screen and (max-width: 767px){
+body {
+    background: silver;
+}
+    * {
+        box-sizing: border-box;
+    }
+    nav {
+        position: sticky;
+        top: 0;
+        margin: 0%;
+    }
+    nav ul {
+        float: right;
+        margin-right: 20px;
+    }
+    nav ul li {
+        display: block; 
+        margin: 50px;
+        line-height: 30px;
+    }
+    nav ul li a {
+        font-size: 20pxpx;
+        color: white;
+        text-align: center;
+    }
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e50 ;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+        opacity:80% ;
+    }
+    .home {
+        background: none;
+        padding: 10px 15px;
+        color: violet;
+    }
+    label.main-nav {
+        padding-left: 50px;
+        color: white;
+        font-size: 30px;
+    }
+    .right {
+        display: block;
+    }
+    #check {
+        display: none ;
+    }
+    #check:checked ~ ul {
+        left: 0%;
+    }
+    p {
+        width: 100%;
+        margin: 0%;
+    }
+}

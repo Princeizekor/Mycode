@@ -1,0 +1,308 @@
+body{
+    margin: 0;
+}
+ /*body styling*/
+ * {
+    box-sizing: border-box
+   }
+/*box styling*/
+ .work {
+     text-align: center;
+     color: green;
+     padding: 15px;
+     font-size: 50px;
+ }
+ /*title styling*/
+ ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     justify-content: space-between;
+     display: flex;
+ }
+ /*this is the ul styling*/
+ li a {
+     display: block;
+     text-decoration: none;
+     flex-direction: row;
+     color:grey;
+ }
+ li a:hover {
+     border-bottom: 2px solid brown;
+ }
+ /*li for ul header styling*/
+ .menu {
+    padding: 5px solid;
+    width: 5%;
+ }
+ .grow {
+    width: 100%;
+    
+ }
+ .prince {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+ }
+ .shop {
+   display: flex;
+   justify-content: space-between;
+   float: left;
+   padding: 20px;
+   text-align: center;
+ }
+ .vision  {
+   display:flex;
+   justify-content: space-between;
+   float: left;
+   padding: 20px;
+ }
+ /*nav bar styling ignore*/
+ .title {
+    padding: 20px;
+    background:grey;
+    color:burlywood;
+ }
+ /*second title styling*/
+ .home-text {
+    width: 100%;
+    color:gray;
+ }
+ /*this is for the page text*/
+.bottom-icon {
+   align-items: center;
+   text-align: center;
+   color: blueviolet;
+}
+/*styling for the bottom icon of the page*/
+.card {
+   display: flex;
+   justify-content: space-between;
+   margin: 5%;
+}
+.left-card {
+   background: burlywood;
+   border-radius: 15px;
+   text-align: center;
+   color:chocolate;
+}
+.center1-card {
+   background: burlywood;
+   border-radius: 15px;
+   text-align: center;
+   color:rgb(182, 91, 26);
+}
+.center2-card {
+   background: burlywood;
+   border-radius: 15px;
+   text-align: center;
+   color:chocolate;
+   
+}
+.right-card {
+   background: burlywood;
+   border-radius: 15px;
+   text-align: center;
+   color:chocolate;
+}
+.card-text {
+   align-items: center;
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+   font-size: 20px;
+   color:grey;
+}
+/*card styling for web home page*/
+.quality {
+   align-items: center;
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+   color:blueviolet;
+}
+/*card text heading*/
+.double-wrapper {
+   display: flex;
+   text-align: center;
+   justify-content: space-between;
+   margin: 5%;
+}
+.papper {
+   width: 47%;
+   font-size: 20px;
+   color:grey;
+   display: flex;
+}
+/*card text for bottom ignore*/
+.faq {
+   padding: 50px;
+   background: brown;
+   margin: 0;
+}
+.faq p {
+   margin-left: 5%;
+   font-size: 15px;
+}
+.faq h1 {
+   margin-left: 10%;
+   color: steelblue;
+}
+.faq input { 
+   background: steelblue;
+   border-radius: 15px;
+   max-width: 100%;
+}
+/*faq styling*/
+
+@media screen and (max-width: 767px){
+   body{
+      margin: 10;
+   }
+   * {
+      box-sizing: border-box;
+     }
+   .work {
+       text-align: center;
+       color: green;
+       padding: 0px;
+       font-size: smaller;
+   }
+   ul {
+       list-style-type: none;
+       margin: 10;
+       display: flex;
+       flex-direction: column;
+   }
+   li a {
+       display: block;
+       text-decoration: none;
+       color:grey;
+       border-bottom: 2px solid brown;
+   }
+   .prince {
+      display:flex;
+      align-items: center;
+      margin: 0;
+      padding: 0;
+   }
+   .shop {
+     display: flex;
+     float: left;
+     padding: 10px;
+     text-align: center;
+   }
+   .vision  {
+     display:flex;
+     float: left;
+     padding: 10px;
+     text-align: center;
+   }
+   .title {
+      padding: 5px;
+      background:grey;
+      color:burlywood;
+   }
+   .hometext {
+      width: 100%;
+      color:gray;
+      margin: 5;
+   }
+  .bottom-icon {
+     align-items: center;
+     text-align: center;
+     color: blueviolet;
+     font-size: smaller;
+  }
+  .card {
+     display: flex;
+     flex-direction: column;
+  }
+  .left-card {
+     background: burlywood;
+     border-radius: 15px;
+     text-align: center;
+     color:chocolate;
+     margin-bottom: 5%;
+  }
+  .center1-card {
+     background: burlywood;
+     border-radius: 15px;
+     text-align: center;
+     color:rgb(182, 91, 26);
+     margin-bottom: 5%;
+  }
+  .center2-card {
+     background: burlywood;
+     border-radius: 15px;
+     text-align: center;
+     color:chocolate;
+     margin-bottom: 5%;
+  }
+  .right-card {
+     background: burlywood;
+     border-radius: 15px;
+     text-align: center;
+     color:chocolate;
+     margin-bottom: 5%;
+  }
+  .card-text {
+     align-items: center;
+     text-align: center;
+     margin-left: auto;
+     margin-right: auto;
+     width: 100%;
+     font-size: 20px;
+     color:grey;
+  }
+  .quality {
+     align-items: center;
+     text-align: center;
+     margin-left: auto;
+     margin-right: auto;
+     color:blueviolet;
+  }
+  .double-wrapper {
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+     justify-content: space-between;
+     margin: 5%;
+  }
+  .papper {
+     width: 100%;
+     font-size: 20px;
+     color:grey;
+  }
+  .faq {
+     padding: 5px;
+     background: grey;
+     margin: 0;
+  }
+  .faq p {
+     margin-left: 5%;
+     font-size: 15px;
+  }
+  .faq h1 {
+     margin-left: 10%;
+     color: peru;
+  }
+  .faq input {
+     background: darkslategray;
+     border-radius: 15px;
+     max-width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+

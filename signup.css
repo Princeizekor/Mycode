@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    background: url("https://c1.wallpaperflare.com/preview/86/468/54/student-people-latin-school.jpg");
+    background-size: cover;
+}
+* {
+    box-sizing: border-box;
+}
+.signup {
+    color: cornflowerblue;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.wrapper input {
+    border-radius: 15px;
+    padding: 10px;
+    border: none;
+    background: rgb(213, 215, 219);
+    color: black;
+    width: 60%;
+    margin-bottom: 2%;
+}
+b {
+    color: chocolate;
+}
+.button {
+    color: black;
+    text-decoration: none;
+    background: brown;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 20px;
+    width: 45%;
+    margin-left: 6%;
+}
+@media screen and (max-width: 767px){
+    *{
+        box-sizing: border-box;
+    }
+    .signup {
+    color: cornflowerblue;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    width: 100%;
+ } 
+.wrapper input { 
+    border-radius: 15px;
+    padding: 10px;
+    border: none;
+    background: rgb(213, 215, 219);
+    color: black;
+    margin-bottom: 3%;
+    width: 100%;
+}
+b {
+    color: chocolate;
+}
+.button {
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    background: brown;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 20px;
+    width: 80%;
+    
+  }
+}
