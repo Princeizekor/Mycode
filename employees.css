@@ -507,38 +507,54 @@ strong {
     padding-right: 0;
     width: 100%;
 }
+.select {
+    background: black;
+    width: 100%;
+    padding: 30px;
 }
-@media screen and (max-width: 900px){
-    *{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
+.select1 {
+    background: rgb(59, 59, 59);
+    width: 80%;
+    padding: 35px;
+    display: flex;
+    margin-left: 130px;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    justify-content: space-between;
+}
+#img {
+    cursor: pointer;
+}
+.right {
+    display: block;
+}
+#check {
+    display: none ;
+}
+#check:checked ~ #select2 {
+    top: 0%;
+}
+#select2 {
+    background: rgb(59, 59, 59);
+    width: 80%;
+    padding: 35px;
+    margin-left: 130px;
+    top: -20%;
+    color: white;
+    border-radius: 0px 0px 10px 10px;
+    display: none;
+}
+.select1 img {
+    width: 20px;
+    height: 20px;
+}
+}
+@media screen and (max-width: 375px){
     body{
         align-items: center;
     }
-    nav {
-        width: 100%;
-        position: sticky;
-        top: 0%;
-        background: white;
-    }
-    nav ul {
-        display: flex;
-        align-items: center;
-    }
-    nav ul li {
-        text-decoration: none;
-        list-style-type: none;
-        justify-content: space-between;
-        font-size: 17px;
-    }
     nav ul li a {
-        display: block;
-        color: black;   
-    }
-    ul .sign-in {
-        font-size: 17px;
+        display: none;
     }
     ul .sign-up {
         width: 150px;
