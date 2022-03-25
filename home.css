@@ -434,3 +434,8 @@ hr {
     }
 }
 
+@media screen and (max-width: 375px) {
+    body {
+        display: none;
+    }
+}
