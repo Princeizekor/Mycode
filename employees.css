@@ -548,14 +548,17 @@ strong {
 }
 @media screen and (max-width: 375px) {
     nav {
+        line-height: 50px;
+        padding: 40px;
         width: 100%;
-        padding: 0;
+        padding-left: 20px;
+        padding-right: 20px;
         margin: 0;
         position: sticky;
         top: 0%;
     }
     nav ul {
-        padding: 0;
+        padding: 20px;
         margin: 0;
         width: 100%;
         justify-content: space-between;
@@ -563,8 +566,11 @@ strong {
     nav ul li a {
         display: none;
     }
-    .sign-up {
+    ul .sign-up {
+        width: 100px;
         margin: 0;
+        padding: 0;
+        font-size: 15px;
     }
     .sign-in {
         display: none;
@@ -834,6 +840,7 @@ strong {
     }
     .sign-up {
         margin: 0;
+        padding: 0%;
     }
     .sign-in {
         display: none;
