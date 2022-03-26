@@ -132,6 +132,8 @@ strong {
 .email button:hover {
     background: yellow;
     transition: 1s all ease;
+    box-shadow: 5px 5px black;
+    color: black;
 }
 .foot12 {
     background: black;
