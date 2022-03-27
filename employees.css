@@ -16,7 +16,6 @@ nav {
     margin: 0;
     padding: 10px;
     display: flex;
-    justify-content: space-between;
     background: white;
     align-items: center;
     position: sticky;
@@ -67,6 +66,9 @@ nav ul li a {
 }
 .li {
     display: flex;
+}
+.show {
+    display: none;
 }
 .wrapper1 {
     display: flex;
@@ -544,11 +546,6 @@ strong {
     justify-content: space-between;
 }
 @media screen and (max-width: 375px) {
-    nav .top-text {
-        margin: 0%;
-        padding: 0%;
-        width: 60%;
-    }
     nav {
         width: 100%;
         margin: 0;
@@ -559,52 +556,72 @@ strong {
         align-items: center;
         position: sticky;
         top: 0;
+    }
+    .show {
+        width: 100%;
+        text-align: center;
+        position: fixed;
+        height: auto;
+        background: white ;
+        top: 52px;
+        left: -100%;
+        transition: all .5s;
+        display: flex;
+        flex-direction: column;
+        z-index: 0;
+        border: 1px solid black;
+    }
+    .li1 li {
+        display: block;
+        text-align: left;
+        padding: 20px;
+        font-size: 20px;
+    }
+    .give {
+        margin-top: 15px;
+        padding: 10px;
+        padding-left: 0;
+        background: rgb(253, 251, 251);
+    }
+    .wave1 {
+        display: flex;
+        padding: 20px;
         justify-content: space-between;
     }
-    nav ul {
-        width: 40%;
-        text-align: center;
-        padding: 0;
-        padding-left: 0;
-    }
-    nav ul li {
-        display: none;
-    }
-    .wave {
-        display: flex;
-    }
-    .wave .sign-up {
-        padding: 10px;
-        background: white;
-        border-radius: 5px;
+    .wave1 .sign-up1 {
+        padding: 15px;
+        width: 150px;
+        background: yellow;
+        border-radius: 50px;
         border: 1px solid black;
-        box-shadow: 5px 5px black;
-        justify-self: normal;
-        margin-left: 0;
         transition: 1s all ease;
+        text-align: center;
+    }
+    .wave1 .sign-in1 {
+        padding: 15px;
+        width: 150px;
+        background: white;
+        border-radius: 50px;
+        border: 1px solid black;
+        transition: 1s all ease;
+        text-align: center;
     }
     .menu {
         width: 25px;
-        height: 3px;
-        background-color: black;
-        margin: 6px 0;
-        margin-right: 10px;
-        font-size: 30px;
-        line-height: 40px;
-        cursor: pointer;
+        height: 4px;
+        background: black;
+        margin-top: 4px;
     }
     .right {
-    margin-top: 15px;
-    float: left;
-    padding: 5px;
+   display: block;
     }
     #check {
     display: none ;
     }
-    #check:checked ~ ul {
+    #check:checked ~ .show {
     left:0%;
     }
-    .sign-in {
+    .wave .sign-in {
         display: none;
     }
     .wrapper1 {
@@ -854,12 +871,6 @@ strong {
     }
 }
 @media screen and (max-width: 414px) {
-  
-    nav .top-text {
-        margin: 0%;
-        padding: 0%;
-        width: 60%;
-    }
     nav {
         width: 100%;
         margin: 0;
@@ -870,52 +881,72 @@ strong {
         align-items: center;
         position: sticky;
         top: 0;
+    }
+    .show {
+        width: 100%;
+        text-align: center;
+        position: fixed;
+        height: auto;
+        background: white ;
+        top: 52px;
+        left: -100%;
+        transition: all .5s;
+        display: flex;
+        flex-direction: column;
+        z-index: 0;
+        border: 1px solid black;
+    }
+    .li1 li {
+        display: block;
+        text-align: left;
+        padding: 20px;
+        font-size: 20px;
+    }
+    .give {
+        margin-top: 15px;
+        padding: 10px;
+        padding-left: 0;
+        background: rgb(253, 251, 251);
+    }
+    .wave1 {
+        display: flex;
+        padding: 20px;
         justify-content: space-between;
     }
-    nav ul {
-        width: 40%;
-        text-align: center;
-        padding: 0;
-        padding-left: 0;
-    }
-    nav ul li {
-        display: none;
-    }
-    .wave {
-        display: flex;
-    }
-    .wave .sign-up {
-        padding: 10px;
-        background: white;
-        border-radius: 5px;
+    .wave1 .sign-up1 {
+        padding: 15px;
+        width: 150px;
+        background: yellow;
+        border-radius: 50px;
         border: 1px solid black;
-        box-shadow: 5px 5px black;
-        justify-self: normal;
-        margin-left: 0;
         transition: 1s all ease;
+        text-align: center;
+    }
+    .wave1 .sign-in1 {
+        padding: 15px;
+        width: 150px;
+        background: white;
+        border-radius: 50px;
+        border: 1px solid black;
+        transition: 1s all ease;
+        text-align: center;
     }
     .menu {
         width: 25px;
-        height: 3px;
-        background-color: black;
-        margin: 6px 0;
-        margin-right: 10px;
-        font-size: 30px;
-        line-height: 40px;
-        cursor: pointer;
+        height: 4px;
+        background: black;
+        margin-top: 4px;
     }
     .right {
-    margin-top: 15px;
-    float: left;
-    padding: 5px;
+        display: block;
     }
     #check {
-    display: none ;
+        display: none ;
     }
-    #check:checked ~ ul {
-    left:0%;
+    #check:checked ~ .show {
+        left:0%;
     }
-    .sign-in {
+    .wave .sign-in {
         display: none;
     }
     .wrapper1 {
@@ -1165,11 +1196,6 @@ strong {
     }
 }
 @media screen and (max-width: 820px) {
-    nav .top-text {
-        margin: 0%;
-        padding: 0%;
-        width: 60%;
-    }
     nav {
         width: 100%;
         margin: 0;
@@ -1180,50 +1206,73 @@ strong {
         align-items: center;
         position: sticky;
         top: 0;
+    }
+    .show {
+        width: 100%;
+        text-align: center;
+        position: fixed;
+        height: auto;
+        background: white ;
+        top: 52px;
+        left: -100%;
+        transition: all .5s;
+        display: flex;
+        flex-direction: column;
+        z-index: 0;
+        border: 1px solid black;
+    }
+    .li1 li {
+        display: block;
+        text-align: left;
+        padding: 20px;
+        font-size: 20px;
+    }
+    .give {
+        margin-top: 15px;
+        padding: 10px;
+        padding-left: 0;
+        background: rgb(253, 251, 251);
+    }
+    .wave1 {
+        display: flex;
+        padding: 20px;
         justify-content: space-between;
     }
-    nav ul {
-        width: 40%;
-        text-align: center;
-        padding: 0;
-        padding-left: 0;
-    }
-    nav ul li {
-        display: none;
-    }
-    .wave {
-        display: flex;
-    }
-    .wave .sign-up {
-        padding: 10px;
-        background: white;
-        border-radius: 5px;
+    .wave1 .sign-up1 {
+        padding: 15px;
+        width: 150px;
+        background: yellow;
+        border-radius: 50px;
         border: 1px solid black;
-        box-shadow: 5px 5px black;
-        justify-self: normal;
-        margin-left: 0;
         transition: 1s all ease;
+        text-align: center;
+    }
+    .wave1 .sign-in1 {
+        padding: 15px;
+        width: 150px;
+        background: white;
+        border-radius: 50px;
+        border: 1px solid black;
+        transition: 1s all ease;
+        text-align: center;
     }
     .menu {
         width: 25px;
-        height: 3px;
-        background-color: black;
-        margin: 6px 0;
-        margin-right: 10px;
-        font-size: 30px;
-        line-height: 40px;
-        cursor: pointer;
+        height: 4px;
+        background: black;
+        margin-top: 4px;
     }
     .right {
-    margin-top: 15px;
-    float: left;
-    padding: 5px;
+   display: block;
     }
     #check {
     display: none ;
     }
-    #check:checked ~ ul {
+    #check:checked ~ .show {
     left:0%;
+    }
+    .wave .sign-in {
+        display: none;
     }
     .wrapper1 {
         display: flex;
@@ -1487,10 +1536,8 @@ strong {
         align-items: center;
         position: sticky;
         top: 0;
-        justify-content: space-between;
     }
     nav ul {
-        width: 40%;
         text-align: center;
         padding: 0;
         padding-left: 0;
@@ -1521,19 +1568,8 @@ strong {
         line-height: 40px;
         cursor: pointer;
     }
-    .right {
-    margin-top: 15px;
-    float: left;
-    padding: 5px;
-    }
-    #check {
-    display: none ;
-    }
-    #check:checked ~ ul {
-    left:0%;
-    }
     .sign-in {
-        display: none;
+        display: block;
     }
     .wrapper1 {
         display: flex;
