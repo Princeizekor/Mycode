@@ -58,6 +58,8 @@ nav ul li a {
     justify-self: stretch;
     margin-left: 15px;
     transition: 1s all ease;
+    text-decoration: none;
+    color: black;
 }
 .wave .sign-up:hover {
     background: yellow;
