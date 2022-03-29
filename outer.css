@@ -17,6 +17,7 @@ nav {
     display: flex;
     background: white;
     border-bottom: 1px solid black;
+    z-index: 1000;
 }
 nav ul {
     text-align: center;
@@ -241,6 +242,12 @@ label.top {
     padding: 20px;
     border: 1px solid black;
     border-radius: 10px;
+    transition: 0.5s all ease;
+}
+.flex2:hover {
+    box-shadow: 6px 6px black;
+    transform: translate(-10px, -10px);
+    transition: 0.5s all ease;
 }
 .images {
     width: 100%;
@@ -281,6 +288,111 @@ label.top {
     transition: 1s all ease;
 }
 .flex4:hover {
+    background: yellow;
+    transition: 1s all ease;
+}
+.wrapper2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 50px;
+    flex-direction: column;
+}
+.flex5 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.flex6 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+.flex7 {
+    width: 300px;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    transition: 0.5s all ease;
+}
+.flex7:hover {
+    box-shadow: 6px 6px black;
+    transition: 0.5s all ease;
+    transform: translate(-10px, -10px);
+}
+.flex8 {
+    width: 100%;
+    height: 80px;
+    border-radius: 10px 10px 0px 0px;
+    background-image: url("https://ik.imagekit.io/parallel/undefined/615ee21ffcb8e81d60c92967/company/header/prl-c_MTprne4Dl?tr=fo-auto,q-80,f-auto,pr-true,md-false,w-auto,h-auto");
+}
+.flex8 img {
+    width: 53px;
+    border-radius: 5px;
+    margin-top: 53px;
+    margin-left: 20px;
+}
+.good {
+    width: 100%;
+    height: 80px;
+    border-radius: 10px 10px 0px 0px;
+    background-image: url("https://ik.imagekit.io/parallel/undefined/615f63dcfcb8e81d60c92a1a/company/header/prl-c_9qRJotBin?tr=fo-auto,q-80,f-auto,pr-true,md-false,w-auto,h-auto");
+}
+.good img {
+    width: 53px;
+    border-radius: 5px;
+    margin-top: 53px;
+    margin-left: 20px;
+}
+.good1 {
+    width: 100%;
+    height: 80px;
+    border-radius: 10px 10px 0px 0px;
+    background-image: url("https://ik.imagekit.io/parallel/undefined/615f6e79210e18328ee7aef3/company/header/prl-c_30HFUGKge?tr=fo-auto,q-80,f-auto,pr-true,md-false,w-auto,h-auto");
+}
+.good1 img {
+    width: 53px;
+    border-radius: 5px;
+    margin-top: 53px;
+    margin-left: 20px;
+}
+.good2 {
+    width: 100%;
+    height: 80px;
+    border-radius: 10px 10px 0px 0px;
+    background-image: url("https://ik.imagekit.io/parallel/undefined/615fc00a210e18328ee7b34a/company/header/prl-c_a4SeKoIQj?tr=fo-auto,q-80,f-auto,pr-true,md-false,w-auto,h-auto");
+}
+.good2 img {
+    width: 53px;
+    border-radius: 5px;
+    margin-top: 53px;
+    margin-left: 20px;
+}
+.flex9 {
+    padding: 20px;
+    width: 100%;
+}
+.flex9 h3 {
+    margin-top: 20px;
+}
+.flex9 p {
+    margin-top: 20px;
+    font-size: 15px;
+}
+.flex10 {
+    padding: 10px;
+    width: 100%;
+    background: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 20px;
+    box-shadow: 6px 6px black;
+    transition: 1s all ease;
+}
+.flex10:hover {
     background: yellow;
     transition: 1s all ease;
 }
@@ -507,6 +619,24 @@ label.top {
     width: 100%;
     margin-bottom: 30px;
 }
+.wrapper2 {
+    padding: 20px;
+}
+.flex5 {
+    width: 100%;
+    text-align: center;
+}
+.flex5 p {
+    display: none;
+}
+.flex6 {
+    display: flex;
+    flex-direction: column;
+}
+.flex7 {
+    width: 100%;
+    margin-bottom: 30px;
+}
 }
 @media screen and (max-width: 414px) {
     nav {
@@ -729,6 +859,24 @@ label.top {
     margin: 0%;
 }
 .flex2 {
+    width: 100%;
+    margin-bottom: 30px;
+}
+.wrapper2 {
+    padding: 20px;
+}
+.flex5 {
+    width: 100%;
+    text-align: center;
+}
+.flex5 p {
+    display: none;
+}
+.flex6 {
+    display: flex;
+    flex-direction: column;
+}
+.flex7 {
     width: 100%;
     margin-bottom: 30px;
 }
@@ -961,6 +1109,24 @@ label.top {
     width: 100%;
     margin-bottom: 30px;
 }
+.wrapper2 {
+    padding: 20px;
+}
+.flex5 {
+    width: 100%;
+    text-align: center;
+}
+.flex5 p {
+    display: none;
+}
+.flex6 {
+    display: flex;
+    flex-direction: column;
+}
+.flex7 {
+    width: 100%;
+    margin-bottom: 30px;
+}
 }
 @media screen and  (min-width: 768px) and (max-width: 820px) {
     nav {
@@ -1181,6 +1347,24 @@ label.top {
     margin: 0%;
     float: right;
 }
+.wrapper2 {
+    padding: 20px;
+}
+.flex5 {
+    width: 100%;
+    text-align: center;
+}
+.flex5 p {
+    display: none;
+}
+.flex6 {
+    display: flex;
+    flex-direction: column;
+}
+.flex7 {
+    width: 100%;
+    margin-bottom: 30px;
+}
 }
 @media screen and  (min-width: 821px) and (max-width: 912px) {
     nav {
@@ -1400,6 +1584,24 @@ label.top {
 .img1 {
     margin: 0%;
     float: right;
+}
+.wrapper2 {
+    padding: 20px;
+}
+.flex5 {
+    width: 100%;
+    text-align: center;
+}
+.flex5 p {
+    display: none;
+}
+.flex6 {
+    display: flex;
+    flex-direction: column;
+}
+.flex7 {
+    width: 100%;
+    margin-bottom: 30px;
 }
 }
 
