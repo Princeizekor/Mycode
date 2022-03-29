@@ -894,7 +894,7 @@ strong {
         background: white ;
         top: 52px;
         left: -100%;
-        transition: all .5s;
+        transition: 1s all ease;
         display: flex;
         flex-direction: column;
         z-index: 0;
