@@ -216,6 +216,74 @@ label.top {
     width: 60px;
     margin-bottom: 30px;
 }
+.wrapper1 {
+    width: 100%;
+    height: auto;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.flex {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px 20px 0px;
+}
+.flex1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.flex2 {
+    width: 300px;
+    height: auto;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.images {
+    width: 100%;
+    height: 50px;
+}
+.img {
+    width: 40px;
+    border-radius: 3px;
+}
+.img1 {
+    width: 20px;
+    margin: 0%;
+    float: right;
+    margin-bottom: 20px;
+}
+.flex3 {
+    width: 100%;
+}
+.flex3 h3 {
+    padding: 20px 0px 20px 0px;
+}
+.flex3 p {
+    padding: 5px 0px 5px 0px;
+}
+.know {
+    margin-bottom: 22px;
+}
+.flex4 {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+    background: white;
+    border-radius: 4px;
+    border: 1px solid black;
+    box-shadow: 5px 5px black;
+    transition: 1s all ease;
+}
+.flex4:hover {
+    background: yellow;
+    transition: 1s all ease;
+}
 @media screen and (max-width: 375px) {
     nav {
       height: auto;
@@ -414,6 +482,30 @@ label.top {
     border: none;
     margin: 0%;
     padding: 0%;
+}
+.wrapper1 {
+    padding: 20px;
+}
+.flex {
+    width: 100%;
+    text-align: center;
+}
+.flex p {
+    display: none;
+}
+.flex1 {
+    display: flex;
+    flex-direction: column;
+}
+.img1 {
+    margin-left: 200px;
+}
+.know {
+    margin: 0%;
+}
+.flex2 {
+    width: 100%;
+    margin-bottom: 30px;
 }
 }
 @media screen and (max-width: 414px) {
@@ -615,6 +707,31 @@ label.top {
     margin: 0%;
     padding: 0%;
 }
+.wrapper1 {
+    padding: 20px;
+}
+.flex {
+    width: 100%;
+    text-align: center;
+}
+.flex p {
+    display: none;
+}
+.flex1 {
+    display: flex;
+    flex-direction: column;
+}
+.img1 {
+    margin: 0%;
+    float: right;
+}
+.know {
+    margin: 0%;
+}
+.flex2 {
+    width: 100%;
+    margin-bottom: 30px;
+}
 }
 @media screen and (max-width: 540px) {
     nav {
@@ -814,6 +931,35 @@ label.top {
     border: none;
     margin: 0%;
     padding: 0%;
+}
+.wrapper1 {
+    padding: 20px;
+}
+.flex {
+    width: 100%;
+    text-align: center;
+}
+.flex p {
+    display: none;
+}
+.flex1 {
+    display: flex;
+    flex-direction: column;
+}
+.images {
+    margin: 0%;
+    justify-content: space-between;
+}
+.img1 {
+    margin: 0%;
+    float: right;
+}
+.know {
+    margin: 0%;
+}
+.flex2 {
+    width: 100%;
+    margin-bottom: 30px;
 }
 }
 @media screen and  (min-width: 768px) and (max-width: 820px) {
@@ -1020,6 +1166,21 @@ label.top {
     margin: 0%;
     padding: 0%;
 }
+.wrapper1 {
+    padding: 30px;
+}
+.flex1 {
+    display: flex;
+    flex-direction: column;
+}
+.flex2 {
+    width: 100%;
+    margin-bottom: 30px;
+}
+.img1 {
+    margin: 0%;
+    float: right;
+}
 }
 @media screen and  (min-width: 821px) and (max-width: 912px) {
     nav {
@@ -1224,6 +1385,21 @@ label.top {
     border: none;
     margin: 0%;
     padding: 0%;
+}
+.wrapper1 {
+    padding: 30px;
+}
+.flex1 {
+    display: flex;
+    flex-direction: column;
+}
+.flex2 {
+    width: 100%;
+    margin-bottom: 30px;
+}
+.img1 {
+    margin: 0%;
+    float: right;
 }
 }
 
