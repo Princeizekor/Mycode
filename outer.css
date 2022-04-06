@@ -17,7 +17,7 @@ nav {
     display: flex;
     background: white;
     border-bottom: 1px solid black;
-    z-index: 1000;
+    z-index: 1000000000;
 }
 nav ul {
     text-align: center;
@@ -395,6 +395,140 @@ label.top {
 .flex10:hover {
     background: yellow;
     transition: 1s all ease;
+}
+.relative {
+    width: 100%;
+    padding: 80px;
+    background: black;
+    color: white;
+}
+.relative .abi {
+    background: rgb(48, 47, 47);
+    padding: 40px 20px 40px 20px;
+    margin: 0 auto;
+    width: 80%;
+    border-radius: 10px;
+    font-size: 25px;
+    color: white;
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+    z-index: 1000000;
+}
+.ojo {
+    width: 20px;
+}
+.relative .faq {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.sami {
+    background: rgb(48, 47, 47);
+    padding: 40px;
+    margin-left: 120px;
+    width: 80%;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+    transition: 1s all ease;
+    display: none;
+}
+#box {
+    display: none;
+}
+#box1 {
+    display: none;
+}
+#box2 {
+    display: none;
+}
+#box3 {
+    display: none;
+}
+#box4 {
+    display: none;
+}
+#box5 {
+    display: none;
+}
+#box:checked ~ .sami {
+    display: block;
+}
+#box:checked ~ .para {
+    color: yellow;
+}
+#box1:checked ~ .sami {
+    display: block;
+}
+#box2:checked ~ .sami {
+    display: block;
+}
+#box3:checked ~ .sami {
+    display: block;
+}
+#box4:checked ~ .sami {
+    display: block;
+}
+#box5:checked ~ .sami {
+    display: block;
+}
+.oboy {
+    width: 100%;
+    height: auto;
+    background: rgb(192, 150, 192);
+}
+.tone {
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+}
+.tone .cool {
+    float: right;
+    padding: 30px;
+}
+.tone .cool2 {
+    float: right;
+}
+.well {
+    width: 100%;
+    padding: 40px 150px 40px 150px;
+    text-align: center;
+    align-items: center;
+    font-size: 65px;
+    font-weight: bolder;
+}
+.well p {
+    margin-bottom: 25px;
+}
+.well .point {
+    font-size: 15px;
+    padding: 10px;
+    width: 200px;
+    background: white;
+    box-shadow: 5px 5px black;
+    border-radius: 3px;
+    border: 1px solid black;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.well .point1 {
+    font-size: 15px;
+    padding: 10px;
+    width: 200px;
+    border-radius: 3px;
+    border: 1px solid black;
+    margin: 0 auto;
+    transition: 0.5s all ease;
+}
+.well .point1:hover {
+    font-size: 15px;
+    padding: 10px;
+    width: 200px;
+    background: white;
+    box-shadow: 5px 5px black;
+    border-radius: 3px;
+    border: 1px solid black;
 }
 @media screen and (max-width: 375px) {
     nav {
